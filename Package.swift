@@ -31,7 +31,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/swift-precompiled/swift-case-paths",
-            revision: "1.9.1-precompiled.1"
+            exact: "1.9.1"
         )
     ],
     targets: [
@@ -48,8 +48,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Parsing",
-            url: "https://github.com/swift-precompiled/swift-parsing/releases/download/0.15.0/Parsing-645821c009c32bef30f48c619281fcdb4b3181d08fa0053b19f4a34d741d06d6.xcframework.zip",
-            checksum: "645821c009c32bef30f48c619281fcdb4b3181d08fa0053b19f4a34d741d06d6"
+            url: "https://github.com/swift-precompiled/swift-parsing/releases/download/0.15.0/Parsing-ed4e8ab85c8ecb82fc21ddd179c744a467d2c15cf30555f9e471c5b1a6110076.xcframework.zip",
+            checksum: "ed4e8ab85c8ecb82fc21ddd179c744a467d2c15cf30555f9e471c5b1a6110076"
         )
     ]
 )
