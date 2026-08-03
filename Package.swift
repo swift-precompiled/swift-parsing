@@ -48,8 +48,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Parsing",
-            url: "https://github.com/swift-precompiled/swift-parsing/releases/download/0.15.0/Parsing-ed4e8ab85c8ecb82fc21ddd179c744a467d2c15cf30555f9e471c5b1a6110076.xcframework.zip",
-            checksum: "ed4e8ab85c8ecb82fc21ddd179c744a467d2c15cf30555f9e471c5b1a6110076"
+            url: "https://github.com/swift-precompiled/swift-parsing/releases/download/0.15.0/Parsing-296b2800ba8d5953678d7a5d3f26ce0897f3aeb5db55d5ddf9b2bf55182667f1.xcframework.zip",
+            checksum: "296b2800ba8d5953678d7a5d3f26ce0897f3aeb5db55d5ddf9b2bf55182667f1"
         )
     ]
 )
